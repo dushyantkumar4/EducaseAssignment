@@ -15,7 +15,7 @@ export const initDB = async () => {
 
     await pool.query(query);
     console.log("Database connected");
-    console.log("Schools table created");
+    console.log("Schools table ready");
   } catch (error) {
     console.log(error);
   }
