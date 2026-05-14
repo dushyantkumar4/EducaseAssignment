@@ -1,7 +1,7 @@
 import { Router } from "express";
-import { addSchool, schoolsList } from "../controllers/schoolController";
-import validate from "../middleware/validate";
-import { addSchoolSchema } from "../validations/schoolValidation";
+import { addSchool, schoolsList } from "../controllers/schoolController.js";
+import validate from "../middleware/validate.js";
+import { addSchoolSchema } from "../validations/schoolValidation.js";
 
 const router = Router();
 
